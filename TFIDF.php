@@ -75,16 +75,13 @@ class TFIDF {
 	*
 	*/
 	function ndw($term) {
-		// die($term);
 		$term = strtolower($term);
 		$doc_locations = $this->corpus_terms[$term];
-
 		$num_locations = count($doc_locations);
 		$docs_with_term = array();
 		for($doc_location=0; $doc_location < $num_locations; $doc_location++) 
 			$docs_with_term[$i]++;
 		return count($docs_with_term);
-		// print_r($docs_with_term);
 	}
 
 	/*
