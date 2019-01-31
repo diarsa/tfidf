@@ -1,5 +1,5 @@
 <?php
-
+ 
 include "TFIDF.php";
 
 // document sebagai percobaan
