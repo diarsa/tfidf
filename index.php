@@ -1,6 +1,6 @@
 <?php
 // add new line
-include "TFIDF.php";
+include "TFIDF.php"; 
 
 // document sebagai percobaan
 $D[0] = "Shipment gold damaged fire";
